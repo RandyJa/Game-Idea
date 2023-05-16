@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Idea 1</title>
+    <style>
+        body{
+            background-color: skyblue;
+        }
+
+        #pinkcloud1{
+            position: absolute;
+            left: 41%;
+        }
+
+        #cloud1{
+            position: absolute;
+            left: 80%;
+            bottom: 33%;
+            z-index: -1;
+            animation-delay: 0s;
+            animation: myfirst 10s 10;
+            animation-timing-function: linear;
+            animation-direction: alternate-reverse;
+        }
+
+        #cloud2{
+            position: absolute;
+            right: 80%;
+            bottom: 30%;
+            z-index: -1;
+            animation-delay: 3s;
+            animation: mysecond 10s 10;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+        }
+
+        #cloud3{
+            position: absolute;
+            right: 52%;
+            bottom: 23%;
+            z-index: -1;
+            animation-delay: 0s;
+            animation-timing-function: linear;
+            animation: mythird 15s 10;
+            animation-direction: alternate-reverse;
+        }
+
+        #cloud4{
+            position: absolute;
+            left: 37%;
+            bottom: 28%;
+            z-index: -1;
+            animation-delay: 0s;
+            animation-timing-function: linear;
+            animation: myfourth 15s 10;
+            animation-direction: alternate-reverse;
+        }
+
+        #cloud5{
+            position: absolute;
+            left: 860px;
+            bottom: 22%;
+            z-index: -3;
+        }
+
+        #cloud6{
+            position: absolute;
+            right: 40%;
+            bottom: 34%;
+            z-index: -3;
+        }
+
+        .button {
+        position: absolute;
+        bottom: 150px;
+        right: 660px;
+        height: 70px;
+        width: 200px;
+        padding: 15px 25px;
+        font-size: 40px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: white;
+        background-color: rgb(249, 140, 215);
+        border: none;
+        border-radius: 30px;
+        box-shadow: 0 9px #999;
+        font-family: 'Fredoka One', cursive;
+        }
+
+        .button:hover {background-color: rgb(210, 118, 181)}
+
+        .button:active {
+        background-color: rgb(210, 118, 181);
+         box-shadow: 0 5px #666;
+         transform: translateY(4px);
+        }
+
+        #Anima{
+        animation-name: bah;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        }
+
+        @keyframes bah{
+        from {top: 0%;}
+        to{top: 100%;}
+        }
+
+        @keyframes myfirst {
+        0%   {left: 0px;}
+        100% {left: 200px;}
+        }
+
+        @keyframes mysecond {
+        0%   {left: 0px;}
+        100% {left: 300px;}
+        }
+
+        @keyframes mythird {
+        0%   {left: 0px;}
+        100% {left: 400px;}
+        }
+
+        @keyframes myfourth {
+        0%   {right: 0px;}
+        100% {right: 200px;}
+        }
+
+        @keyframes myfifth {
+        0%   {right: 0px;}
+        100% {right: 300px;}
+        }
+
+        @keyframes mysixth {
+        0%   {right: 0px;}
+        100% {right: 400px;}
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="Anima">
+    <button class="button">Start</button>
+    </div>
+
+    <img id="pinkcloud1" src="https://64.media.tumblr.com/ff57cfd12000d60d20f13b6e147cffdd/tumblr_mm4r532nP61rfjowdo1_540.gif" height="500px" width="300px">
+
+    <img id="cloud1" src="https://art.pixilart.com/5be37c80be0d3b0.png" height="600px" width="600px">
+
+    <img id="cloud2" src="https://art.pixilart.com/5be37c80be0d3b0.png" height="600px" width="600px">
+
+    <img id="cloud3" src="https://art.pixilart.com/5be37c80be0d3b0.png" height="600px" width="600px">
+
+    <img id="cloud4" src="https://art.pixilart.com/5be37c80be0d3b0.png" height="600px" width="600px">
+
+    <img id="cloud5" src="https://art.pixilart.com/5be37c80be0d3b0.png" height="600px" width="600px">
+
+    <img id="cloud6" src="https://art.pixilart.com/5be37c80be0d3b0.png" height="600px" width="600px">
+
+</body>
+</html>
